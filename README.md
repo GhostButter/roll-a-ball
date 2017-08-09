@@ -48,9 +48,13 @@ void FixedUpdate ()
 
 **ATTENTION!** THE LIGHTENED OUT TEXT ARE SIDE NOTES TO EXPLAIN WHAT EACH PART IS STEP BY STEP SO YOU HAVE A BETTER UNDERSTANDING OF WHAT'S GOING ON.  IF YOU HAVE ANY QUESTIONS, ASK A INSTRUCTOR WHEN YOU CAN.
 
+### Next
+
 **Next, we're going to add in the Rigidbody component to our script so that we can apply forces to it.  It'll look like this:**
 
 ![ScreenShot](https://raw.githubusercontent.com/junior-devleague/roll-a-ball/master/assets/Screen%20Shot%202017-08-09%20at%2012.22.51%20AM.png)
+
+### Now for some speed
 
 Now, save what you have made (CMD + S for Mac or WIN + S for Windows) and go back to our interface.  Check at the bottom for any errors that might have been made, before you are able to test, the code is compiled and any errors will prevent it from starting.  No errors means that our code works and we can play it in our scene.  Press "Play" in the Toolbar and test it out!  **Congrats!** We've now got a rolling ball that responds to our input.  However, it's a little slow for our liking, so let's go back to our Code Editor one mroe time so we can adjust that.
 
