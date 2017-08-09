@@ -2,7 +2,7 @@
 Easy tutorial to get familiar with the basics of Unity
 
 ## What is this going to teach you?
-You're going to learn the basics of Unity from creating **GameObjects** to applying physics through the **Rigidbody** component and applying force to an object through keyboard input.  No assets will be imported for this project, nor will there be models, sounds, textures, or animations.  This will be bare bones so you can focus on functionality over style!
+You're going to learn the basics of Unity from creating **GameObjects**, attaching the **Rigidbody** component and applying force to an object through keyboard input.  No assets will be imported for this project, nor will there be models, sounds, textures, or animations.  This will be bare bones so you can focus on functionality over style!
 
 **Let's begin!**
 
