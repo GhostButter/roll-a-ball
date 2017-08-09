@@ -7,11 +7,11 @@ You're going to learn the basics of Unity from creating **GameObjects** to apply
 **Let's begin!**
 
 ## The Steps
-1. Create a new project, if needed, you can do this by opening file **new project** then naming it and saving the project location.  
+1. Create a new project.  If needed, you can do this by opening the file menu and clicking **New Project** then naming it and saving the project location. <--- Saving it to your desktop will allow for easy opening later on.  
 
-2. Next, you should have a new project open so let's save it.  You can do this by opening file again, **save scene**, and save it in the assets file.  You can name it what you like.
+2. Next, you should have a new project open so let's save our scene.  You can do this by opening file again, **Save Scene**, and save it in the assets file.  You can name it what you like.
 
-3. Okay, after it's saved, let's create a floor for our ball.  Go into **GameObject**, then **3DObject**, and click **Plane**.  This will give you a floor pane in your Hierarchy that you can adjust, or move around.  After setting it, clear the gear icon on the top right and click **reset** this sets the GameObject to 0,0,0 or **Origin**.  Origin is the centered coordinate where all other points are calculated from.  
+3. Okay, after it's saved, let's begin making stuff.  First, create a floor for our player.  Go into **GameObject**, then **3DObject**, and click **Plane**.  This will give you a floor pane in your Hierarchy that you can adjust, or move around.  After setting it, clear the gear icon on the top right and click **reset** this sets the GameObject to 0,0,0 or **Origin**.  Origin is the centered coordinate where all other points are calculated from.  
 
 4. Next, let's change the scale of the plane.  You can change the size of the scale by either clicking on the scale icon on the top left and dragging the correct axis icon, or by inputting a number directly into the **x, y, z** scales in the transform component.  **Note:** Planes GameObjects are only affected by the **x, and z** coordinates and attempting to change the **y** won't do anything unless you change it to negative.  Change the scale position to 2, 1, 2.
 
@@ -46,7 +46,7 @@ void FixedUpdate ()
 
 ![ScreenShot](https://raw.githubusercontent.com/junior-devleague/roll-a-ball/master/assets/Screen%20Shot%202017-08-08%20at%2011.48.59%20PM.png)
 
-**ATTENTION!** THE LIGHTENED OUT TEXT ARE SIDE NOTES TO EXPLAIN WHAT EACH PART IS STEP BY STEP SO YOU HAVE A BETTER UNDERSTANDING OF WHAT'S GOING ON.  IF YOU HAVE ANY QUESTIONS, ASK THE INSTRUCTOR WHEN YOU CAN.
+**ATTENTION!** THE LIGHTENED OUT TEXT ARE SIDE NOTES TO EXPLAIN WHAT EACH PART IS STEP BY STEP SO YOU HAVE A BETTER UNDERSTANDING OF WHAT'S GOING ON.  IF YOU HAVE ANY QUESTIONS, ASK A INSTRUCTOR WHEN YOU CAN.
 
 **Next, we're going to add in the Rigidbody component to our script so that we can apply forces to it.  It'll look like this:**
 
