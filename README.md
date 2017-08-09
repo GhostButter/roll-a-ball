@@ -31,10 +31,15 @@ You're going to learn the basics of Unity from creating **GameObjects** to apply
 
 **Next, inside the open braces, type in:** 
 
+
 void FixedUpdate ()
+
 {
+  
   float moveHorizontal = Input.GetAxis("Horizontal");
+  
   float moveVertical = Input.GetAxis("Vertical");
+
 }
 
 **it should look like this...**
