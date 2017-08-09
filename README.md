@@ -66,4 +66,29 @@ Notice that we added a new public float variable above called "speed" and at the
 
 **Nice Job!** Now we are able to move our character at a faster pace and now we know how to apply forces to our GameObject.  If you have any questions, or need help debugging, please refer to Mark or Raymond for assistance.
 
+## Stretch Goals
 
+### The Camera
+From it's current position, the camera isn't able to see much, nor does it follow our character.
+
+Let's first start by adjusting the **Transform** component of our Main Camera GameObject.  
+
+Set the **Y** coordinate of our Position to **10** and then rotate the camera by setting the **X** coordinate of Rotation to 45.  This gives us a nice full view of our map.  It should look like this:
+
+![ScreenShot](https://github.com/junior-devleague/roll-a-ball/blob/master/assets/Screen%20Shot%202017-08-09%20at%201.10.54%20AM.png?raw=true)
+
+So, the camera is at a nicer angle, but it's still not following the player.
+
+Create a new script in our Scripts folder and name it **CameraFollow**.  Open it up in the editor.
+
+**The code for camera movement should look like this:**
+
+![ScreenShot](https://raw.githubusercontent.com/junior-devleague/roll-a-ball/master/assets/Screen%20Shot%202017-08-09%20at%201.39.32%20AM.png)
+
+Next, we're going to attach this script to the **Main Camera** GameObject.  Once it's attached, you'll notice that an attribute is missing from our Script.  
+
+![ScreenShot](https://raw.githubusercontent.com/junior-devleague/roll-a-ball/master/assets/Screen%20Shot%202017-08-09%20at%201.42.58%20AM.png)
+
+What's the point of the script if there's nothing to follow? Simply drag the **player** GameObject from the Hierarchy directly to where it says "none" and drop.  
+
+**WALLAH!** Hit play again and watch the camera follow the player! 
