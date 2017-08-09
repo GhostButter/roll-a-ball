@@ -44,6 +44,22 @@ void FixedUpdate ()
 
 **it should look like this...**
 
+![ScreenShot](https://raw.githubusercontent.com/junior-devleague/roll-a-ball/master/assets/Screen%20Shot%202017-08-08%20at%2011.48.59%20PM.png)
 
+**ATTENTION!** THE LIGHTENED OUT TEXT ARE SIDE NOTES TO EXPLAIN WHAT EACH PART IS STEP BY STEP SO YOU HAVE A BETTER UNDERSTANDING OF WHAT'S GOING ON.  IF YOU HAVE ANY QUESTIONS, ASK THE INSTRUCTOR WHEN YOU CAN.
+
+**Next, we're going to add in the Rigidbody component to our script so that we can apply forces to it.  It'll look like this:**
+
+![ScreenShot](https://raw.githubusercontent.com/junior-devleague/roll-a-ball/master/assets/Screen%20Shot%202017-08-09%20at%2012.22.51%20AM.png)
+
+Now, save what you have made (CMD + S for Mac or WIN + S for Windows) and go back to our interface.  Check at the bottom for any errors that might have been made, before you are able to test, the code is compiled and any errors will prevent it from starting.  No errors means that our code works and we can play it in our scene.  Press "Play" in the Toolbar and test it out!  **Congrats!** We've now got a rolling ball that responds to our input.  However, it's a little slow for our liking, so let's go back to our Code Editor one mroe time so we can adjust that.
+
+**Here's what the code should look like:**
+
+![ScreenShot](https://raw.githubusercontent.com/junior-devleague/roll-a-ball/master/assets/Screen%20Shot%202017-08-09%20at%2012.38.43%20AM.png)
+
+Notice that we added a new public float variable above called "speed" and at the bottom, we multiplied our movement * speed.  Now, let's go to the interface and inside the player script component we see a new editable property called "speed".  Adjusting this will allow us to speed up or slow down our character to our liking.  
+
+**Nice Job!** Now we are able to move our character at a faster pace and now we know how to apply forces to our GameObject.  If you have any questions, or need help debugging, please refer to Mark or Raymond for assistance.
 
 
